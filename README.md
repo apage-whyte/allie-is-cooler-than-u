@@ -1,5 +1,5 @@
 I dont know yet but its probably going to be subway surfer style. 
-
+We decided on doing a corn maze. Ari has made the tile map. Allie is makeing an introduction. 
 
 
 
