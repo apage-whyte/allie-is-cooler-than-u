@@ -1,18 +1,1 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="$c:E7j*:na+RV#Ph;a!C">mySprite</variable><variable id="~k-l,-FdZ!8,9fB4~[)F">myEnemy</variable><variable type="KIND_SpriteKind" id="u2cEzXhn-%Vl,Nqd5TwN">Player</variable><variable type="KIND_SpriteKind" id=",TL9#v@xNN8#KW.07K|u">Projectile</variable><variable type="KIND_SpriteKind" id="!ig%B{IB}-;V)00ETZb2">Food</variable><variable type="KIND_SpriteKind" id="/(K(OFw*Hz]HbW3sfihJ">Enemy</variable></variables><comment id="KM~t9wz7XSMHlD]b3M!x" data="1" x="175" y="-132" h="120" w="480">At anytime, you can right-click on a block and select "help" for more info on the specific block and how it can be used.</comment><comment id="4`1K+w^DJz:x9u8Q$)?7" data="0" x="189" y="-103" h="120" w="390">To comment in your JS, use the double</comment><block type="pxt-on-start" id="d?Sg^hKPy{3jjTn3}]]i" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="X;k!5YOf!{.mC/Ldf;TE"><field name="VAR" id="$c:E7j*:na+RV#Ph;a!C">mySprite</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="!grH@u=:e-|_Jsj_2MP}"><value name="img"><shadow type="screen_image_picker" id="~5Z,vL{NOX#ZYDhPIR=^"><field name="img">img`
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . 3 3 3 3 3 . . . . . . . 
-. . . . 3 3 3 3 3 . . . . . . . 
-. . . . 3 3 3 3 3 . . . . . . . 
-. . . . 3 3 3 3 3 . . . . . . . 
-. . . . 3 3 3 3 3 . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-`</field><data>{"commentRefs":[],"fieldData":{"img":"~5Z,vL{NOX#ZYDhPIR=^"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="OYfL8J{w9zT`T~tN*`MG"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="game_control_sprite" id="ELjqQ^eD{+$~99rdw(sJ"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="sprite"><shadow type="variables_get" id="SCKY[%ur+PyQ-2~Lm:+3"><field name="VAR" id="$c:E7j*:na+RV#Ph;a!C">mySprite</field></shadow></value><next><block type="startEffectOnSprite" id=";gP=S:/-P])-SR]iD$3W"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><field name="effect">effects.fire</field><value name="sprite"><block type="variables_get" id="D=CV;wgX:YA)3ulAVB{j"><field name="VAR" id="$c:E7j*:na+RV#Ph;a!C">mySprite</field></block></value></block></next></block></next></block></statement></block></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="$c:E7j*:na+RV#Ph;a!C">mySprite</variable><variable id="~k-l,-FdZ!8,9fB4~[)F">myEnemy</variable><variable type="KIND_SpriteKind" id="u2cEzXhn-%Vl,Nqd5TwN">Player</variable><variable type="KIND_SpriteKind" id=",TL9#v@xNN8#KW.07K|u">Projectile</variable><variable type="KIND_SpriteKind" id="!ig%B{IB}-;V)00ETZb2">Food</variable><variable type="KIND_SpriteKind" id="/(K(OFw*Hz]HbW3sfihJ">Enemy</variable></variables><comment id="KM~t9wz7XSMHlD]b3M!x" data="1" x="175" y="-132" h="120" w="480">At anytime, you can right-click on a block and select "help" for more info on the specific block and how it can be used.</comment><comment id="4`1K+w^DJz:x9u8Q$)?7" data="0" x="189" y="-103" h="120" w="390">To comment in your JS, use the double</comment></xml>
